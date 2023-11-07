@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e5e6;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: #405b61;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  
+  }
+  a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  
+  }
+  a:hover {
+    color: aqua;
+  }
+  body, html {
+
+    /* justify-content: space-between; /* Espacio entre los contenedores */
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     overflow: hidden;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  body {
+    background-image: linear-gradient(rgba(119, 107, 107, 0.75), rgba(0,0,0,0.75)), url(equipment.png);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      text-align: center;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh; /* Esto centra verticalmente en la página */
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+  }
+  img {
+    width: 80px;
+    height: auto;
+  
+  }
+  h1 {
+    color: white;
+    font-size: 45px;
+    
+  }
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  
+  }
+  a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  
+  }
+  a:hover {
+    color: aqua;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #302525;
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  .image-with-text {
+    display: flex; 
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+    gap: 4px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .logo {
+    max-width: 25px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  }
+  
+  /* Estilos adicionales */
+  h2 {
+    color: #f1efef;
+  }
+  
+  p {
+    color: #fffefe;
+  }
+  
+  
